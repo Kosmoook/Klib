@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Klib">
+      <UniqueIdentifier>{4709887C-3340-890D-DC2C-6F10C842050F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Klib\Events">
+      <UniqueIdentifier>{4B9FBBB5-B754-34AB-4049-2E82ACFD2AAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Klib.h" />
+    <ClInclude Include="src\Klib\Application.h">
+      <Filter>Klib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\Core.h">
+      <Filter>Klib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\EntryPoint.h">
+      <Filter>Klib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\Events\ApplicationEvent.h">
+      <Filter>Klib\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\Events\Event.h">
+      <Filter>Klib\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\Events\KeyEvent.h">
+      <Filter>Klib\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\Events\MouseEvent.h">
+      <Filter>Klib\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\Log.h">
+      <Filter>Klib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Klib\Window.h">
+      <Filter>Klib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\klpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Klib\Application.cpp">
+      <Filter>Klib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Klib\Log.cpp">
+      <Filter>Klib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\klpch.cpp" />
+  </ItemGroup>
+</Project>

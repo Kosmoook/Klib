@@ -1,0 +1,6 @@
+[submodule "Klib/vendor/spdlog"]
+	path = Klib/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Klib/vendor/GLFW"]
+	path = Klib/vendor/GLFW
+	url = https://github.com/thecherno/glfw
